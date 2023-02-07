@@ -1,0 +1,863 @@
+@media screen and (max-width: 600px) {
+  .title p {
+    bottom: 70px;
+  }
+
+  /* Start Home  */
+  .logo {
+    width: 100%;
+  }
+  .navList {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 35px;
+  }
+
+  /* End Home  */
+
+  /* Start About  */
+
+  .content {
+    display: block;
+    text-align: center;
+  }
+  .contant-left {
+    width: 100%;
+  }
+  .contant-right {
+    text-align: left;
+    width: 100%;
+    padding-left: 0rem;
+    padding-top: 10px;
+  }
+
+  .items-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .item {
+    text-align: center;
+    width: 46%;
+    background-color: white !important;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .item3::before {
+    width: 100%;
+    height: 0;
+    top: auto;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+  .item22::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 20px;
+    left: -1px;
+    border-left: 1px dotted #e0dede;
+  }
+
+  .item22::after {
+    height: 70%;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: -15px;
+    right: 0;
+    border-bottom: 1px dotted #e0dede;
+  }
+  .item1::after {
+    height: 70%;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    right: -15px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px dotted #e0dede;
+  }
+
+  /* End About  */
+
+  /* Strat What I DO  */
+  .content-services {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    text-align: left;
+  }
+  .item-services {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .icon {
+    width: 20%;
+  }
+  /* End What I DO  */
+
+  /* Strat Resume  */
+
+  .content-resume {
+    margin: auto;
+    width: 90%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+  .education-content {
+    width: 100%;
+  }
+  .experience-content {
+    width: 100%;
+  }
+
+  .skills {
+    width: 90%;
+    padding-left: 30px;
+    margin: 0;
+  }
+
+  .item-skills {
+    width: 100%;
+  }
+
+  .text-skills {
+    width: 105%;
+  }
+  .prograss-bar1 {
+    width: 105%;
+  }
+
+  .btncv2 {
+    left: 25%;
+  }
+
+  /* End Resume  */
+
+  /* Strat Portfolio  */
+
+  .content-portfolio {
+    width: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .col1,
+  .col2,
+  .col3 {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  /* End Portfolio  */
+
+  /* Strat Client  */
+
+  .itemsleft,
+  .itemsright {
+    margin: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .itemsright {
+    opacity: 0;
+  }
+
+  .client-content:hover .itemsright {
+    left: 60px;
+  }
+  .client-details {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1.5rem;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .item-client {
+    /* margin: auto; */
+    border-radius: 0.25rem;
+    background-color: #f8f9fa;
+    padding: 3rem;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  .item2 {
+    left: 110%;
+    position: absolute;
+  }
+
+  .dot3,
+  .dot4 {
+    opacity: 1;
+  }
+
+  /* End Client  */
+
+  /* Strat Contact  */
+
+  .contact-content {
+    /* background-color: red; */
+    margin: auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .client-content-left {
+    width: 100%;
+    text-align: center;
+  }
+  .client-content-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .input-name {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .input-mail {
+    width: 100%;
+  }
+
+  /* End Contact  */
+
+  /* Strat Footer  */
+  .footer-content {
+    width: 89%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .footer-left {
+    width: 90%;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+  .footer-right ul {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  /* End Footer  */
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .title p {
+    bottom: 70px;
+  }
+
+  /* Start Home  */
+
+  h1 {
+    font-weight: 600;
+    font-size: 50px;
+  }
+
+  /* End Home  */
+
+  /* Start About  */
+
+  .content {
+    display: block;
+    text-align: center;
+  }
+  .contant-left {
+    width: 100%;
+  }
+  .contant-right {
+    text-align: left;
+    width: 100%;
+    padding-left: 0rem;
+    padding-top: 10px;
+  }
+
+  .items-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .item {
+    text-align: center;
+    width: 46%;
+    background-color: white !important;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .item3::before {
+    width: 100%;
+    height: 0;
+    top: auto;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+  .item22::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 20px;
+    left: -1px;
+    border-left: 1px dotted #e0dede;
+  }
+
+  .item22::after {
+    height: 70%;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: -15px;
+    right: 0;
+    border-bottom: 1px dotted #e0dede;
+  }
+  .item1::after {
+    height: 70%;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    right: -30px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px dotted #e0dede;
+  }
+  /* End About  */
+
+  /* Strat What I DO  */
+  .content-services {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    text-align: left;
+  }
+  .item-services {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .icon {
+    width: 20%;
+  }
+  /* End What I DO  */
+
+  /* Strat Resume  */
+
+  .content-resume {
+    margin: auto;
+    width: 90%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+  .education-content {
+    width: 100%;
+  }
+  .experience-content {
+    width: 100%;
+  }
+
+  .skills {
+    width: 90%;
+    padding-left: 30px;
+    margin: 0;
+  }
+
+  .item-skills {
+    width: 100%;
+  }
+
+  .text-skills {
+    width: 105%;
+  }
+  .prograss-bar1 {
+    width: 105%;
+  }
+
+  .btncv2 {
+    left: 25%;
+  }
+
+  /* End Resume  */
+
+  /* Strat Portfolio  */
+  .content-portfolio {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .col1,
+  .col2,
+  .col3 {
+    width: 50%;
+    overflow: visible;
+  }
+  .col3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .content-portfolio img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-left: 30px;
+  }
+  .col3 .item-port {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  .col3-img3,
+  .col3-img6 {
+    position: relative;
+    top: -30%;
+  }
+  .portfolio-overlay {
+    bottom: 5px;
+    left: 10px;
+  }
+
+  /* End Portfolio  */
+
+  /* Strat Client  */
+
+  .itemsleft,
+  .itemsright {
+    margin: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .itemsright {
+    opacity: 0;
+  }
+
+  .client-content:hover .itemsright {
+    left: 60px;
+  }
+  .client-details {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1.5rem;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .item-client {
+    /* margin: auto; */
+    border-radius: 0.25rem;
+    background-color: #f8f9fa;
+    padding: 3rem;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  .item2 {
+    left: 110%;
+    position: absolute;
+  }
+
+  .dot3,
+  .dot4 {
+    opacity: 1;
+  }
+
+  /* End Client  */
+
+  /* Strat Contact  */
+
+  .contact-content {
+    /* background-color: red; */
+    margin: auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .client-content-left {
+    width: 100%;
+    text-align: center;
+  }
+  .client-content-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .input-name {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .input-mail {
+    width: 100%;
+  }
+
+  /* End Contact  */
+
+  /* Strat Footer  */
+  .footer-content {
+    width: 90%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .footer-left {
+    width: 60%;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+  .footer-right ul {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  /* End Footer  */
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .title p {
+    bottom: 90px;
+  }
+
+  /* Start About  */
+
+  .content {
+    display: block;
+    text-align: center;
+  }
+  .contant-left {
+    width: 100%;
+  }
+  .contant-right {
+    text-align: left;
+    width: 100%;
+    padding-left: 0rem;
+    padding-top: 10px;
+  }
+
+  .items-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .item {
+    text-align: center;
+    width: 46%;
+    background-color: white !important;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .item3::before {
+    width: 100%;
+    height: 0;
+    top: auto;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+  .item22::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 20px;
+    left: -1px;
+    border-left: 1px dotted #e0dede;
+  }
+
+  .item22::after {
+    height: 70%;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: -15px;
+    right: 0;
+    border-bottom: 1px dotted #e0dede;
+  }
+  .item1::after {
+    height: 70%;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    right: -50px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px dotted #e0dede;
+  }
+  /* End About  */
+
+  /* Strat What I DO  */
+  .content-services {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    text-align: left;
+  }
+  /* End What I DO  */
+
+  /* Strat Resume  */
+
+  .content-resume {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    margin: auto;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+
+  /* End Resume  */
+
+  /* Strat Portfolio  */
+  .content-portfolio {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 90%;
+  }
+  /* Strat Portfolio  */
+  .content-portfolio {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .col1,
+  .col2,
+  .col3 {
+    width: 50%;
+    overflow: visible;
+  }
+  .col3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .content-portfolio img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-left: 30px;
+  }
+  .col3 .item-port {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  .col3-img3,
+  .col3-img6 {
+    position: relative;
+    top: -30%;
+  }
+  .portfolio-overlay {
+    bottom: 5px;
+    left: 10px;
+  }
+
+  /* End Portfolio  */
+  /* End Portfolio  */
+
+  /* Strat Client  */
+
+  .itemsleft,
+  .itemsright {
+    margin: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .itemsright {
+    opacity: 0;
+  }
+
+  .client-content:hover .itemsright {
+    left: 60px;
+  }
+  .client-details {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1.5rem;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .item-client {
+    /* margin: auto; */
+    border-radius: 0.25rem;
+    background-color: #f8f9fa;
+    padding: 3rem;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  .item2 {
+    left: 110%;
+    position: absolute;
+  }
+
+  .dot3,
+  .dot4 {
+    opacity: 1;
+  }
+
+  /* End Client  */
+
+  /* Strat Contact  */
+
+  /* End Contact  */
+
+  /* Strat Footer  */
+  .footer-content {
+    width: 70%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .footer-left {
+    width: 60%;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+  .footer-right ul {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  /* End Footer  */
+}
